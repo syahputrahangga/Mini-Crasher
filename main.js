@@ -21,7 +21,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "6285704387963"
+let phoneNumber = "62858664357268"
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
